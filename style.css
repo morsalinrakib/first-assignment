@@ -120,6 +120,34 @@ body {
   background-color: rgba(51, 255, 0, 0.21);
   padding: 25px;
 }
+.update h1 {
+  text-align: center;
+}
+.update p {
+  text-align: center;
+}
+.mail-sub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 30px;
+  height: 200px;
+  border: none;
+  background-color: #c7350068;
+}
+.sub-btn {
+  font-size: 25px;
+  /* width: 50px; */
+  background-color: rgb(232, 93, 93);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+}
+.sub-input {
+  height: 32px;
+}
 footer {
   display: flex;
   justify-content: center;
