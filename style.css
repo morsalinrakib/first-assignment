@@ -148,6 +148,34 @@ body {
 .sub-input {
   height: 32px;
 }
+.carity h1 {
+  text-align: center;
+  color: black;
+}
+.carity p {
+  text-align: center;
+  color: black;
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 100px;
+  border: none;
+}
+.cares-home {
+  width: 30%;
+  padding: 25px;
+  margin: auto;
+}
+.skilled-nersing {
+  width: 30%;
+  padding: 25px;
+  margin: auto;
+}
 footer {
   display: flex;
   justify-content: center;
