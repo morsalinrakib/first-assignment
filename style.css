@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.hero {
+  background-image: url(img/donation4.jpg);
+  width: 100%;
+  height: 600px;
+  background-color: rgba(255, 0, 0, 0.7);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero h1 {
+  margin: 0;
+  padding-top: 100px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+.hero p {
+  text-align: center;
+  color: white;
+  font-weight: 500px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: none;
+}
+.btn {
+  font-size: 25px;
+  /* width: 50px; */
+  background-color: rgb(232, 93, 93);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.donate {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.donate h1 {
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+}
+.donate p {
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+.box {
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
+.donate-amount {
+  margin: auto;
+  padding-top: 20px;
+  width: 80px;
+  height: 50px;
+  text-align: center;
+  background-color: #f8f1cd;
+  list-style: none;
+}
+.donate-taka {
+  border: 2px solid red;
+  background-color: #e6b3a1;
+}
+.input-taka {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  text-align: center;
+  margin-bottom: -100px;
+}
+.donate-plan h1 {
+  margin-top: 0px;
+
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+.donate-plan p {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 500px;
+  margin-bottom: 50px;
+}
+.donation-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 100px;
+  border: none;
+}
+.food {
+  width: 30%;
+  background-color: rgba(255, 0, 0, 0.2);
+  padding: 25px;
+}
+.shelter {
+  width: 30%;
+  background-color: rgba(0, 81, 255, 0.21);
+  padding: 25px;
+  margin: 0 25px;
+}
+.education {
+  width: 30%;
+  background-color: rgba(51, 255, 0, 0.21);
+  padding: 25px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: none;
+  background-color: black;
+}
+footer p {
+  text-align: center;
+  color: white;
+}
+footer h1 {
+  text-align: center;
+  color: rgb(174, 8, 8);
+}
